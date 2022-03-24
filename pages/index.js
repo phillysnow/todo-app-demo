@@ -17,8 +17,8 @@ const Homepage = ({ doc, menu }) => {
   }
 };
 
-export async function getStaticProps({ locale }) {
-  const client = createClient();
+export async function getStaticProps({ previewData, locale }) {
+  const client = createClient({ previewData });
 
   const doc = await client.getSingle("homepage", { lang: locale });
   const menu = await client.getSingle("menu", { lang: locale });
