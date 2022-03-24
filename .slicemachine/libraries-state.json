@@ -116,9 +116,77 @@
         },
         "screenshotPaths": {
           "DefaultSlice": {
-            "path": "/Users/prismic/prismic/nextjs-sample-multi-language/.slicemachine/assets/slices/EmailSignup/DefaultSlice/preview.png",
+            "path": "/Users/philipsnow/prismic/nextjs-sample-multi-language/.slicemachine/assets/slices/EmailSignup/DefaultSlice/preview.png",
             "width": 800,
             "height": 538
+          }
+        }
+      },
+      "embed_slice": {
+        "library": "slices",
+        "id": "embed_slice",
+        "name": "EmbedSlice",
+        "description": "EmbedSlice",
+        "model": {
+          "id": "embed_slice",
+          "type": "SharedSlice",
+          "name": "EmbedSlice",
+          "description": "EmbedSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "EmbedSlice",
+              "primary": {
+                "embed": {
+                  "config": {
+                    "label": "Embed",
+                    "placeholder": "Embed"
+                  },
+                  "type": "Embed"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "embed_slice",
+            "items": [],
+            "primary": {
+              "embed": {
+                "title": "Prismic January Product Meetup",
+                "author_name": "Prismic",
+                "author_url": "https://www.youtube.com/channel/UCJq6AEgtWeZt7ziQ-fLKOeA",
+                "type": "video",
+                "height": 113,
+                "width": 200,
+                "version": "1.0",
+                "provider_name": "YouTube",
+                "provider_url": "https://www.youtube.com/",
+                "thumbnail_height": 360,
+                "thumbnail_width": 480,
+                "thumbnail_url": "https://i.ytimg.com/vi/fiOwHYFkUz0/hqdefault.jpg",
+                "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/fiOwHYFkUz0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/philipsnow/prismic/nextjs-sample-multi-language/.slicemachine/assets/slices/EmbedSlice/default/preview.png",
+            "width": 800,
+            "height": 113
           }
         }
       },
@@ -195,7 +263,7 @@
         },
         "screenshotPaths": {
           "defaultSlice": {
-            "path": "/Users/prismic/prismic/nextjs-sample-multi-language/.slicemachine/assets/slices/FullWidthImage/defaultSlice/preview.png",
+            "path": "/Users/philipsnow/prismic/nextjs-sample-multi-language/.slicemachine/assets/slices/FullWidthImage/defaultSlice/preview.png",
             "width": 800,
             "height": 500
           }
@@ -290,7 +358,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/prismic/prismic/nextjs-sample-multi-language/.slicemachine/assets/slices/HeadlineWithButton/default-slice/preview.png",
+            "path": "/Users/philipsnow/prismic/nextjs-sample-multi-language/.slicemachine/assets/slices/HeadlineWithButton/default-slice/preview.png",
             "width": 800,
             "height": 626
           }
@@ -417,7 +485,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/prismic/prismic/nextjs-sample-multi-language/.slicemachine/assets/slices/InfoWithImage/default-slice/preview.png",
+            "path": "/Users/philipsnow/prismic/nextjs-sample-multi-language/.slicemachine/assets/slices/InfoWithImage/default-slice/preview.png",
             "width": 800,
             "height": 687
           }
@@ -511,7 +579,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/prismic/prismic/nextjs-sample-multi-language/.slicemachine/assets/slices/TextInfo/default-slice/preview.png",
+            "path": "/Users/philipsnow/prismic/nextjs-sample-multi-language/.slicemachine/assets/slices/TextInfo/default-slice/preview.png",
             "width": 800,
             "height": 415
           }

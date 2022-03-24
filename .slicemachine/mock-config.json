@@ -1,6 +1,5 @@
 {
   "_cts": {
-    "new-custom-type": {},
     "homepage": {
       "displayTitle": {
         "config": {
@@ -27,7 +26,6 @@
     }
   },
   "slices": {
-    "NewSlice": {},
     "HeadlineWithButton": {
       "default-slice": {
         "primary": {
@@ -99,7 +97,6 @@
           }
         }
       }
-    },
-    "MySlice": {}
+    }
   }
 }
