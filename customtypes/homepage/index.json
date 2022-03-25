@@ -33,6 +33,9 @@
             },
             "InfoWithImage": {
               "type": "SharedSlice"
+            },
+            "embed_slice": {
+              "type": "SharedSlice"
             }
           }
         }

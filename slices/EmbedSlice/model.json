@@ -1,0 +1,25 @@
+{
+  "id": "embed_slice",
+  "type": "SharedSlice",
+  "name": "EmbedSlice",
+  "description": "EmbedSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "EmbedSlice",
+      "primary": {
+        "embed": {
+          "config": {
+            "label": "Embed",
+            "placeholder": ""
+          },
+          "type": "Embed"
+        }
+      },
+      "items": {}
+    }
+  ]
+}
